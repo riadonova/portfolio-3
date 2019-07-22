@@ -3,8 +3,7 @@ import './navbar.component.scss';
 
 export class Navbar extends React.Component {
     render () {
-        return (
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        return (<nav className="navbar navbar-expand-lg navbar-light bg-light">
            <div className="container">
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto">
@@ -29,7 +28,7 @@ export class Navbar extends React.Component {
             <a className="nav-link" href="#">SHOP</a>
             </li>
             </ul>
-            <form>
+            <form className="my-search">
             <input type="text" placeholder="Search"/>
             <button type="submit"><i class="material-icons">
             search
