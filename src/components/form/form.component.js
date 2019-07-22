@@ -11,14 +11,13 @@ export class Form extends React.Component {
             Subscribe my Newsletter for new blog posts, tips & new photos. Let's stay updated!
              </div>
           <div className="col-sm-2">
-            <input type="text" class="form-control" placeholder="Name"/>
+            <input type="text" className="form-control" placeholder="Name"/>
           </div>
             <div className="col-sm-2">
-            <label for="inputEmail4">Email</label>
-            <input type="email" class="form-control" id="inputEmail4" placeholder="Email"/>
+            <input type="email" className="form-control" id="inputEmail4" placeholder="Email"/>
             </div>
             <div className="col-sm-2">
-            <button type="button" class="btn btn-primary btn-lg">Большая кнопка</button>
+            <button type="button" className="btn btn-dark btn-block">SUBSCRIBE</button>
             </div>
             </div>
             </div>

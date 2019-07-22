@@ -5,10 +5,9 @@
   }
 }
 
-
-
 * {box-sizing: border-box;}
 .my-search {
+    font-size: 12px;
     position: relative;
     width: 300px;
     margin: 0 auto;
@@ -44,6 +43,7 @@
     position: absolute;
     top: 0;
     right: 0;
+    background: transparent;
     cursor: pointer;
   }
 
