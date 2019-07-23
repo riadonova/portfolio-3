@@ -8,7 +8,7 @@ import {Content} from "./components/content/content.component";
 export class App extends React.Component {
     render () {
         return (
-            <div className="App">
+            <div className="App pt-5">
                 <Navbar/>
                 <Carousel/>
                 <Form/>

@@ -1,9 +1,9 @@
-export const news = [
+export const bigNews = [
     {
         img: 'food-img-1.jpg',
         category: 'TRADITIONAL',
         name: 'Pizza with arugula',
-        author: 'Victoria',
+        author: 'Cooking Cat',
         text: 'Lommodo ligula eget dolor. Aenean massa. Cum sociis que penatibus et magnis dis parturient montes lorem, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla onsequat massa quis enim. Donec pede justo fringilla vel aliquet nec vulputate eget. Lorem ispum dolore siamet ipsum dolor. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumquer nihil impedit quo minus id quod maxime placeat facere. At vero eos et accusamus et iusto odio dignissimos ducimus quilor.',
         date: 'July 24, 2019',
         comment: 0
@@ -21,7 +21,7 @@ export const news = [
         img: 'food-img-3.jpg',
         category: 'HOME',
         name: 'Homemade chicken',
-        author: 'Victoria',
+        author: 'Cooking Cat',
         text: 'Lommodo ligula eget dolor. Aenean massa. Cum sociis que penatibus et magnis dis parturient montes lorem, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla onsequat massa quis enim. Donec pede justo fringilla vel aliquet nec vulputate eget. Lorem ispum dolore siamet ipsum dolor. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumquer nihil impedit quo minus id quod maxime placeat facere. At vero eos et accusamus et iusto odio dignissimos ducimus quilor.',
         date: 'July 22, 2019',
         comment: 0
@@ -36,3 +36,31 @@ export const news = [
         comment: 0
     }
 ];
+
+export const miniNews = [
+    {
+        img: 'res-img-1.jpg',
+        name: 'Best Restaurants',
+    },
+    {
+        img: 'res-img-2.jpg',
+        name: 'Best Restaurants',
+    },
+    {
+        img: 'res-img-3.jpg',
+        name: 'Best Restaurants',
+    },
+    {
+        img: 'res-img-1.jpg',
+        name: 'Best Restaurants',
+    },
+    {
+        img: 'res-img-2.jpg',
+        name: 'Best Restaurants',
+    },
+    {
+        img: 'res-img-3.jpg',
+        name: 'Best Restaurants',
+    },
+];
+
