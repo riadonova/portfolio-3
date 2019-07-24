@@ -13,20 +13,20 @@ export class TapeComponent extends React.Component {
             <div className="tape-inst mt-5 text-center">
                 <div className="line"></div>
                 <h6 className="pt-3"><i className="icofont-instagram mr-1"></i> FOLLOW ME ON INSTAGRAM</h6>
-            <div className="row mt-3">
-                <div className="img-inst col-sm-2 p-0">
+            <div className="row mt-3 no-gutters">
+                <div className="img-inst col-sm-2">
                     <img src={ImgInsOne} alt="img"/>
                 </div>
-                <div className="img-inst col-sm-2 p-0">
+                <div className="img-inst col-sm-2">
                     <img src={ImgInsTwo} alt="img"/>
                 </div>
-                <div className="img-inst col-sm-2 p-0">
+                <div className="img-inst col-sm-2">
                     <img src={ImgInsThree} alt="img"/>
                 </div>
-                <div className="img-inst col-sm-2 p-0">
+                <div className="img-inst col-sm-2">
                     <img src={ImgInsFour} alt="img"/>
                 </div>
-                <div className="img-inst col-sm-2 p-0">
+                <div className="img-inst col-sm-2">
                     <img src={ImgInsFive} alt="img"/>
                 </div>
                 <div className="img-inst col-sm-2 p-0">

@@ -1,6 +1,7 @@
 import React from 'react';
 import './content.component.scss';
 import Icofont from 'react-icofont';
+import StickyBox from "react-sticky-box/dist/esnext";
 import {BigNew} from "./content-big-new.component";
 import {bigNews} from "../../data/news";
 import {MiniNew} from "./content-mini-new.component";
@@ -18,6 +19,7 @@ export class Content extends React.Component {
                     </div>
 
                     <div className="col-sm-4 text-center">
+                        <StickyBox style={{float: "right", width: "100%"}}>
                         <div className="block-info mb-4 pb-4">
                             <div className="bg-light p-2">
                                 <h6 className="m-0">ABOUT ME</h6>
@@ -71,17 +73,14 @@ export class Content extends React.Component {
                             </div>
                             <div className="text-left font-weight-light category-info">
                             <ul className="p-0">
-                                <li><a href="#">Traditional</a></li>
-                                <div className="line"></div>
-                                <li><a href="#">Home</a></li>
-                                <div className="line"></div>
-                                <li><a href="#">Unusual</a></li>
-                                <div className="line"></div>
-                                <li><a href="#">Light food</a></li>
-                                <div className="line"></div>
+                                <li className="line"><a href="#">Traditional</a></li>
+                                <li className="line"><a href="#">Home</a></li>
+                                <li className="line"><a href="#">Unusual</a></li>
+                                <li className="line"><a href="#">Light food</a></li>
                             </ul>
                             </div>
                         </div>
+                        </StickyBox>
                     </div>
                 </div>
             </div>
