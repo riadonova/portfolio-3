@@ -72,13 +72,13 @@ export class Content extends React.Component {
                             <div className="text-left font-weight-light category-info">
                             <ul className="p-0">
                                 <li><a href="#">Traditional</a></li>
-                                <div className="line-categories"></div>
+                                <div className="line"></div>
                                 <li><a href="#">Home</a></li>
-                                <div className="line-categories"></div>
+                                <div className="line"></div>
                                 <li><a href="#">Unusual</a></li>
-                                <div className="line-categories"></div>
+                                <div className="line"></div>
                                 <li><a href="#">Light food</a></li>
-                                <div className="line-categories"></div>
+                                <div className="line"></div>
                             </ul>
                             </div>
                         </div>
