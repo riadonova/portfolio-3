@@ -44,8 +44,14 @@ img {
   margin: -55px 20px 20px 20px;
 }
 
-.mini-news {
-  h6:hover {
-    color: #a8d02f;
-  }
+.mini-new {
+  opacity: 0.8;
+  color: #000000;
+  transition: all 0.2s linear;
+}
+
+.mini-new:hover {
+  opacity: 1;
+  color: #000000;
+  transform: scale(1.1);
 }

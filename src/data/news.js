@@ -39,28 +39,28 @@ export const bigNews = [
 
 export const miniNews = [
     {
-        img: 'res-img-1.jpg',
-        name: 'Best Restaurants',
+        img: 'food-img-5.jpg',
+        name: 'River fish',
     },
     {
         img: 'res-img-2.jpg',
+        name: 'Special evening places',
+    },
+    {
+        img: 'food-img-6.jpg',
+        name: 'What to take on a picnic',
+    },
+    {
+        img: 'food-img-7.jpg',
+        name: 'Simple breakfasts for the weekend',
+    },
+    {
+        img: 'res-img-5.jpg',
         name: 'Best Restaurants',
     },
     {
-        img: 'res-img-3.jpg',
-        name: 'Best Restaurants',
-    },
-    {
-        img: 'res-img-1.jpg',
-        name: 'Best Restaurants',
-    },
-    {
-        img: 'res-img-2.jpg',
-        name: 'Best Restaurants',
-    },
-    {
-        img: 'res-img-3.jpg',
-        name: 'Best Restaurants',
+        img: 'food-img-8.jpg',
+        name: 'Dinner party',
     },
 ];
 

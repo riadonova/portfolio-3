@@ -1,5 +1,15 @@
 body {
+  font-family: 'Merriweather', serif;
+}
+
+p, a {
   font-family: 'Poppins', sans-serif;
+}
+
+h6, h5 {
+  a {
+    font-family: 'Merriweather', serif;
+  }
 }
 
 .material-icons {

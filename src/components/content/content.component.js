@@ -37,7 +37,7 @@ export class Content extends React.Component {
                             </div>
                             <img className="mt-4 mb-3" src={imgPost} alt="img-Sushi"/>
                             <div className="header-min p-3 bg-white text-dark">
-                                <h5><a href="#">Cooking sushi at home</a></h5>
+                                <h5 className="pt-2"><a href="#">Cooking sushi at home</a></h5>
                             </div>
                             <div className="mini-news">
                             <div className="row">
