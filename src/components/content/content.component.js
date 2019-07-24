@@ -36,13 +36,13 @@ export class Content extends React.Component {
                                 <div className="col-sm-12 mt-4">
                                     <div className="mx-auto">
                                     <div className="icon-bg mx-2">
-                                    <i className="icofont-facebook"></i>
+                                    <Icofont icon="facebook"/>
                                     </div>
                                     <div className="icon-bg mx-2">
-                                    <i className="icofont-twitter"></i>
+                                        <Icofont icon="twitter"/>
                                     </div>
                                     <div className="icon-bg mx-2">
-                                    <i className="icofont-instagram"></i>
+                                        <Icofont icon="instagram"/>
                                     </div>
                                     </div>
                                 </div>

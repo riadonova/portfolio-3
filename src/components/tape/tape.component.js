@@ -15,22 +15,22 @@ export class TapeComponent extends React.Component {
                 <h6 className="pt-3"><i className="icofont-instagram mr-1"></i> FOLLOW ME ON INSTAGRAM</h6>
             <div className="row mt-3 no-gutters">
                 <div className="img-inst col-sm-2">
-                    <img src={ImgInsOne} alt="img"/>
+                    <a href="#"><img src={ImgInsOne} alt="img"/></a>
                 </div>
                 <div className="img-inst col-sm-2">
-                    <img src={ImgInsTwo} alt="img"/>
+                    <a href="#"><img src={ImgInsTwo} alt="img"/></a>
                 </div>
                 <div className="img-inst col-sm-2">
-                    <img src={ImgInsThree} alt="img"/>
+                    <a href="#"><img src={ImgInsThree} alt="img"/></a>
                 </div>
                 <div className="img-inst col-sm-2">
-                    <img src={ImgInsFour} alt="img"/>
+                    <a href="#"><img src={ImgInsFour} alt="img"/></a>
                 </div>
                 <div className="img-inst col-sm-2">
-                    <img src={ImgInsFive} alt="img"/>
+                    <a href="#"><img src={ImgInsFive} alt="img"/></a>
                 </div>
                 <div className="img-inst col-sm-2 p-0">
-                    <img src={ImgInsSix} alt="img"/>
+                    <a href="#"><img src={ImgInsSix} alt="img"/></a>
                 </div>
             </div>
                 <div className="line pt-5"></div>

@@ -1,3 +1,5 @@
+//@import "~bootstrap/scss/bootstrap";
+
 img {
   width: 100%;
 }
@@ -63,10 +65,17 @@ img {
 
 .mini-new {
   min-height: 150px;
-  opacity: 0.6;
   color: #000000;
   transition: all 0.2s linear;
 }
+
+/*
+@include media-breakpoint-up(sm) {
+  .mini-new {
+    opacity: 0.6;
+  }
+}
+*/
 
 .mini-new:hover {
   opacity: 1;
