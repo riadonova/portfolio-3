@@ -30,6 +30,21 @@ export class Content extends React.Component {
                             <div className="bg-light p-2">
                                 <h6 className="m-0">KEEP IN TOUCH</h6>
                             </div>
+                            <div className="row">
+                                <div className="col-sm-12 mt-4">
+                                    <div className="mx-auto">
+                                    <div className="icon-bg mx-2">
+                                    <i className="icofont-facebook"></i>
+                                    </div>
+                                    <div className="icon-bg mx-2">
+                                    <i className="icofont-twitter"></i>
+                                    </div>
+                                    <div className="icon-bg mx-2">
+                                    <i className="icofont-instagram"></i>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div className="block-info mb-4 pb-4">
                             <div className="bg-light p-2">
@@ -48,6 +63,23 @@ export class Content extends React.Component {
                                     {miniNews.slice(3,6).map(newItem => <MiniNew miniNews={newItem}/>)}
                                 </div>
                             </div>
+                            </div>
+                        </div>
+                        <div className="block-info mb-4 pb-4">
+                            <div className="bg-light p-2 mb-4">
+                                <h6 className="m-0">CATEGORIES</h6>
+                            </div>
+                            <div className="text-left font-weight-light category-info">
+                            <ul className="p-0">
+                                <li><a href="#">Traditional</a></li>
+                                <div className="line-categories"></div>
+                                <li><a href="#">Home</a></li>
+                                <div className="line-categories"></div>
+                                <li><a href="#">Unusual</a></li>
+                                <div className="line-categories"></div>
+                                <li><a href="#">Light food</a></li>
+                                <div className="line-categories"></div>
+                            </ul>
                             </div>
                         </div>
                     </div>

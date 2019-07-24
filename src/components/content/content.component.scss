@@ -39,12 +39,30 @@ img {
   }
 }
 
+.icon-bg {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  color: #212529;
+  border: 1px solid #aaaaaa;
+  border-radius: 50%;
+}
+
+.icon-bg:hover {
+  border: none;
+  background-color: #a8d02f;
+  color: #ffffff;
+}
+
+
 .header-min {
   position: relative;
   margin: -55px 20px 20px 20px;
 }
 
 .mini-new {
+  min-height: 150px;
   opacity: 0.8;
   color: #000000;
   transition: all 0.2s linear;
@@ -52,6 +70,19 @@ img {
 
 .mini-new:hover {
   opacity: 1;
-  color: #000000;
   transform: scale(1.1);
+  a {
+    color: #a8d02f;
+  }
+}
+
+.category-info {
+  li {
+    padding-left: 10px;
+    line-height: 50px;
+  }
+}
+
+.line-categories {
+  border-bottom: 1px solid #e1e1e1;
 }
