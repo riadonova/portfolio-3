@@ -1,10 +1,14 @@
 import React from 'react';
 import './navbar.component.scss';
+import imgDropOne from '../../img/res-img-1.jpg';
+import imgDropTwo from '../../img/res-img-2.jpg';
+import imgDropThree from '../../img/res-img-3.jpg';
+import imgDropFour from '../../img/res-img-4.jpg';
 
 export class Navbar extends React.Component {
     render() {
         return (<nav className="navbar navbar-expand-lg navbar-light bg-light shadow-sm position-fixed">
-                <div className="container">
+                <div className="container position-relative">
                     <button className="navbar-toggler" type="button" data-toggle="collapse"
                             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
@@ -13,7 +17,7 @@ export class Navbar extends React.Component {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav mr-auto">
                             <li className="nav-item active">
-                                <a className="nav-link pl-0" href="#">HOME<span class="sr-only">(current)</span></a>
+                                <a className="nav-link pl-0" href="#">HOME<span className="sr-only">(current)</span></a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="#">RECIPE</a>
@@ -23,11 +27,37 @@ export class Navbar extends React.Component {
                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     PLACES<span className="text-danger"> NEW</span>
                                 </a>
-                                <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a className="dropdown-item" href="#">Action</a>
-                                    <a className="dropdown-item" href="#">Another action</a>
-                                    <div className="dropdown-divider"></div>
-                                    <a className="dropdown-item" href="#">Something else here</a>
+                                <div className="dropdown-menu shadow-sm p-3" aria-labelledby="navbarDropdown">
+                                    <div className="row m-0">
+                                        <div className="col-sm-3 no-gutters mt-3 mb-2">
+                                            <div className="text-center">
+                                            <img src={imgDropOne} alt="img"/>
+                                            <p className="mt-3"><a href="#">The best gourmet restaurants around the world</a></p>
+                                                <p className="drop-date text-secondary font-weight-light m-0">July 25, 2019</p>
+                                            </div>
+                                        </div>
+                                        <div className="col-sm-3 no-gutters mt-3 mb-2">
+                                            <div className="text-center">
+                                            <img src={imgDropTwo} alt="img"/>
+                                            <p className="mt-3"><a href="#">The best gourmet restaurants around the world</a></p>
+                                                <p className="drop-date text-secondary font-weight-light m-0">July 25, 2019</p>
+                                            </div>
+                                        </div>
+                                        <div className="col-sm-3 no-gutters mt-3 mb-2">
+                                            <div className="text-center">
+                                            <img src={imgDropThree} alt="img"/>
+                                            <p className="mt-3"><a href="#">The best gourmet restaurants around the world</a></p>
+                                                <p className="drop-date text-secondary font-weight-light m-0">July 25, 2019</p>
+                                            </div>
+                                        </div>
+                                        <div className="col-sm-3 no-gutters mt-3 mb-2">
+                                            <img src={imgDropFour} alt="img"/>
+                                            <div className="text-center">
+                                            <p className="mt-3"><a href="#">The best gourmet restaurants around the world</a></p>
+                                                <p className="drop-date text-secondary font-weight-light m-0">July 25, 2019</p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </li>
                             <li cclassName="nav-item">

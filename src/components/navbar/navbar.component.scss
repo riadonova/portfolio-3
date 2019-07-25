@@ -7,9 +7,11 @@
     position: static;
   }
   .dropdown-menu {
-    top: 50px;
+    top: 49px;
     right: 15px;
     left: 15px;
+    border: 0;
+    border-radius: 0;
   }
 }
 
@@ -18,6 +20,10 @@
   span {
     font-size: 7px;
   }
+}
+
+.drop-date {
+  font-size: 13px;
 }
 
 * {box-sizing: border-box;}

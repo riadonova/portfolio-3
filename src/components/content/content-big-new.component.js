@@ -12,9 +12,9 @@ export class BigNew extends React.Component {
                     <h2>{bigNewContent.name}</h2>
                     <p className="author-content"><span className="text-secondary">written by </span>{bigNewContent.author}
                     </p>
-                    <div className="line-content mx-auto mb-3"></div>
+                    <div className="line-content mx-auto"></div>
                 </div>
-                <p className="text-content text-justify font-weight-light">{bigNewContent.text}</p>
+                <p className="text-content text-justify font-weight-light mt-3 pt-md-0 pt-sm-3">{bigNewContent.text}</p>
                 <button type="button" className="btn btn-content btn-success text-white mb-4">CONTINUE READING
                 </button>
                 <div className="data-box text-left text-secondary mb-5">
