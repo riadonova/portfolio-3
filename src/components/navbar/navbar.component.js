@@ -30,29 +30,29 @@ export class Navbar extends React.Component {
                                 <div className="dropdown-menu shadow-sm p-3" aria-labelledby="navbarDropdown">
                                     <div className="row m-0">
                                         <div className="col-sm-3 no-gutters mt-3 mb-2">
-                                            <div className="text-center">
+                                            <div className="drop-item text-center">
                                             <img src={imgDropOne} alt="img"/>
                                             <p className="mt-3"><a href="#">The best gourmet restaurants around the world</a></p>
                                                 <p className="drop-date text-secondary font-weight-light m-0">July 25, 2019</p>
                                             </div>
                                         </div>
                                         <div className="col-sm-3 no-gutters mt-3 mb-2">
-                                            <div className="text-center">
+                                            <div className="drop-item text-center">
                                             <img src={imgDropTwo} alt="img"/>
                                             <p className="mt-3"><a href="#">The best gourmet restaurants around the world</a></p>
                                                 <p className="drop-date text-secondary font-weight-light m-0">July 25, 2019</p>
                                             </div>
                                         </div>
                                         <div className="col-sm-3 no-gutters mt-3 mb-2">
-                                            <div className="text-center">
+                                            <div className="drop-item text-center">
                                             <img src={imgDropThree} alt="img"/>
                                             <p className="mt-3"><a href="#">The best gourmet restaurants around the world</a></p>
                                                 <p className="drop-date text-secondary font-weight-light m-0">July 25, 2019</p>
                                             </div>
                                         </div>
                                         <div className="col-sm-3 no-gutters mt-3 mb-2">
-                                            <img src={imgDropFour} alt="img"/>
-                                            <div className="text-center">
+                                            <div className="drop-item text-center">
+                                                <img src={imgDropFour} alt="img"/>
                                             <p className="mt-3"><a href="#">The best gourmet restaurants around the world</a></p>
                                                 <p className="drop-date text-secondary font-weight-light m-0">July 25, 2019</p>
                                             </div>

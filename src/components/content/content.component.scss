@@ -69,14 +69,6 @@ img {
   transition: all 0.2s linear;
 }
 
-/*
-@include media-breakpoint-up(sm) {
-  .mini-new {
-    opacity: 0.6;
-  }
-}
-*/
-
 .mini-new:hover {
   opacity: 1;
   transform: scale(1.1);
@@ -92,3 +84,11 @@ img {
   }
 }
 
+.pagination {
+  font-family: 'Merriweather', serif;
+  font-size: 9px;
+  a {
+    font-family: 'Merriweather', serif;
+    font-size: 9px;
+  }
+}

@@ -7,11 +7,29 @@
     position: static;
   }
   .dropdown-menu {
-    top: 49px;
+    top: 48px;
     right: 15px;
     left: 15px;
     border: 0;
     border-radius: 0;
+  }
+}
+
+.drop-item {
+  a {
+    color: #212529;
+  }
+  img {
+    opacity: 0.8;
+  }
+}
+
+.drop-item:hover {
+  a {
+    color: #a8d02f;
+  }
+  img {
+    opacity: 1;
   }
 }
 
@@ -72,3 +90,4 @@
     font-size: 16px;
   }
 }
+
