@@ -18,7 +18,7 @@ export class Content extends React.Component {
                         {bigNews.map(newItem => <BigNew bigNews={newItem}/>)}
                         <div>
                             <p className="pagination justify-content-center">
-                                <a>
+                                <a href="#">
                                 <i className="material-icons text-secondary">
                                     keyboard_arrow_left
                                 </i>

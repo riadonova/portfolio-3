@@ -32,41 +32,41 @@ export class Navbar extends React.Component {
                                         <div className="col-sm-3 no-gutters mt-3 mb-2">
                                             <div className="drop-item text-center">
                                             <img src={imgDropOne} alt="img"/>
-                                            <p className="mt-3"><a href="#">The best gourmet restaurants around the world</a></p>
+                                            <p className="mt-3"><a href="#">The Best Gourmet Restaurants Around The World</a></p>
                                                 <p className="drop-date text-secondary font-weight-light m-0">July 25, 2019</p>
                                             </div>
                                         </div>
                                         <div className="col-sm-3 no-gutters mt-3 mb-2">
                                             <div className="drop-item text-center">
                                             <img src={imgDropTwo} alt="img"/>
-                                            <p className="mt-3"><a href="#">The best gourmet restaurants around the world</a></p>
+                                            <p className="mt-3"><a href="#">The Best Gourmet Restaurants Around The World</a></p>
                                                 <p className="drop-date text-secondary font-weight-light m-0">July 25, 2019</p>
                                             </div>
                                         </div>
                                         <div className="col-sm-3 no-gutters mt-3 mb-2">
                                             <div className="drop-item text-center">
                                             <img src={imgDropThree} alt="img"/>
-                                            <p className="mt-3"><a href="#">The best gourmet restaurants around the world</a></p>
+                                            <p className="mt-3"><a href="#">The Best Gourmet Restaurants Around The World</a></p>
                                                 <p className="drop-date text-secondary font-weight-light m-0">July 25, 2019</p>
                                             </div>
                                         </div>
                                         <div className="col-sm-3 no-gutters mt-3 mb-2">
                                             <div className="drop-item text-center">
                                                 <img src={imgDropFour} alt="img"/>
-                                            <p className="mt-3"><a href="#">The best gourmet restaurants around the world</a></p>
+                                            <p className="mt-3"><a href="#">The Best Gourmet Restaurants Around The World</a></p>
                                                 <p className="drop-date text-secondary font-weight-light m-0">July 25, 2019</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </li>
-                            <li cclassName="nav-item">
+                            <li className="nav-item">
                                 <a className="nav-link" href="#">SHOP</a>
                             </li>
                         </ul>
                         <form className="my-search m-0">
                             <input type="text" placeholder="Search"/>
-                            <button type="submit"><i class="material-icons">
+                            <button type="submit"><i className="material-icons">
                                 search
                             </i></button>
                         </form>

@@ -5,11 +5,10 @@
   }
   &:hover {
     .carousel-arrow-left, .carousel-arrow-right {
-      display: block;
+      opacity: 1;
     }
   }
   .carousel-arrow-left, .carousel-arrow-right{
-    display: none;
     position: absolute;
     width: 30px;
     height: 30px;
@@ -18,9 +17,12 @@
     font-size: 20px;
     line-height: 25px;
     color: black;
-    background-color: rgba(255, 255, 255, 0.87);
+    background-color: rgba(255, 255, 255, 0.79);
     border: none;
     border-radius: 50%;
+    outline: none;
+    transition: opacity 0.5s;
+    opacity: 0;
   }
   .carousel-arrow-left {
     left: 20px;
@@ -31,26 +33,19 @@
   .owl-item.center {
     .carousel-header {
       opacity: 1;
-      .carousel-header-content {
-        margin-top: 0;
-      }
     }
   }
   .carousel-header {
-    transition: opacity 1s ease-out;
-    opacity: 0;
     top: 50%;
     position: absolute;
     left: 100px;
     right: 100px;
     padding: 25px 25px;
     background-color: rgba(0, 0, 0, 0.6);
+    transition: opacity 0.5s linear;
+    opacity: 0;
     transform: translateY(-50%);
     overflow: hidden;
-    .carousel-header-content {
-      transition: margin 1s ease-out;
-      margin-top: 500px;
-    }
     p {
       font-size: 11px;
       margin-bottom: 0;
