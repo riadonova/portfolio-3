@@ -16,9 +16,25 @@ export class Carousel extends React.Component {
                              center
                              margin={10}
                              items={2}
+                             autoplay={true}
+                             autoplayTimeout={4000}
                              nav
                              dots={false}
                              navClass={['carousel-arrow-left', 'carousel-arrow-right']}
+                             responsive = {{
+                                 0: {
+                                     items: 1,
+                                 },
+                                 450: {
+                                     items: 2,
+                                 },
+                                 600: {
+                                     items: 2,
+                                 },
+                                 1000: {
+                                     items: 2,
+                                 },
+                             }}
                 >
                     {carouselNews.map(newItem => <CarouselNew carouselNews={newItem}/>)}
                     {carouselNews.map(newItem => <CarouselNew carouselNews={newItem}/>)}

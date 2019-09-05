@@ -1,4 +1,13 @@
+@import '../../variables.scss';
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/mixins';
+
 h1 {
   font-family: 'Pacifico', cursive;
   font-size: 70px;
+  @include media-breakpoint-down('sm') {
+    font-size: 50px;
+  }
 }
+

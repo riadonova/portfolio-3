@@ -9,13 +9,13 @@ export class Navbar extends React.Component {
     render() {
         return (<nav className="navbar navbar-expand-lg navbar-light bg-light shadow-sm position-fixed">
                 <div className="container position-relative">
-                    <button className="navbar-toggler" type="button" data-toggle="collapse"
+                    <button className="navbar-toggler ml-auto" type="button" data-toggle="collapse"
                             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul className="navbar-nav mr-auto">
+                        <ul className="navbar-nav pr-3 mr-auto">
                             <li className="nav-item active">
                                 <a className="nav-link pl-0" href="#">HOME<span className="sr-only">(current)</span></a>
                             </li>
@@ -27,7 +27,7 @@ export class Navbar extends React.Component {
                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     PLACES<span className="text-danger"> NEW</span>
                                 </a>
-                                <div className="dropdown-menu shadow-sm p-3" aria-labelledby="navbarDropdown">
+                                <div className="dropdown-menu shadow-sm p-0 p-lg-3" aria-labelledby="navbarDropdown">
                                     <div className="row m-0">
                                         <div className="col-sm-3 no-gutters mt-3 mb-2">
                                             <div className="drop-item text-center">
@@ -66,9 +66,11 @@ export class Navbar extends React.Component {
                         </ul>
                         <form className="my-search m-0">
                             <input type="text" placeholder="Search"/>
-                            <button type="submit"><i className="material-icons">
+                            <button type="submit">
+                                <i className="material-icons">
                                 search
-                            </i></button>
+                                </i>
+                            </button>
                         </form>
                     </div>
                 </div>

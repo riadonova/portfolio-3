@@ -1,5 +1,16 @@
+@import '../../variables.scss';
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/mixins';
+
 .text-form {
   font-size: 12px;
   align-items: center;
   line-height: 45px;
+}
+
+@include media-breakpoint-down('lg') {
+  .text-form {
+    line-height: 18px;
+  }
 }

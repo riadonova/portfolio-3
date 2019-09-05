@@ -14,3 +14,6 @@ $input-border-radius: none;
 $input-bg: transparent;
 $input-font-size: 11px;
 $input-padding-y: 9px;
+$input-focus-border-color: $success;
+$input-focus-box-shadow:  0 0 5px rgba($success, .75) !default;
+
