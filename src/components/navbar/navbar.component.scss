@@ -26,6 +26,13 @@
     &.show {
       opacity: 1;
       height: 340px;
+      @include media-breakpoint-down('lg') {
+        height: 260px;
+      }
+      @include media-breakpoint-down('sm') {
+        height: 400px;
+        overflow-y: auto;
+      }
     }
   }
 }
@@ -36,6 +43,7 @@
   }
   img {
     opacity: 0.8;
+    object-fit: cover;
   }
 }
 
